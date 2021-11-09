@@ -31,6 +31,18 @@ nav {
 
 .img-green {
     background-color: springgreen;
-    width: 250px;
     height: 180px;
+}
+
+.about {
+    background-color: #1abc9c;
+}
+
+.about-left, .about-right {
+    background-color: violet;
+    height: 200px;
+}
+
+.portfolio, .about, .contact, .footer {
+    margin-top: 2em;
 }
