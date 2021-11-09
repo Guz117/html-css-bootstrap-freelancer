@@ -1,10 +1,12 @@
 .flex {
     display: flex;
 }
+
 li {
     list-style: none;
     display: inline-block;
 }
+
 nav {
     background-color: #2c3e50;
 }
