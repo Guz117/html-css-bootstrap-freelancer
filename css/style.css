@@ -1,0 +1,36 @@
+.flex {
+    display: flex;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+nav {
+    background-color: #2c3e50;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.jambotron {
+    background-color: #1abc9c;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.white {
+    background-color: white;
+}
+
+.red {
+    background-color: tomato;
+    height: 60px;
+}
+
+.img-green {
+    background-color: springgreen;
+    width: 250px;
+    height: 180px;
+}
