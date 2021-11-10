@@ -2,8 +2,8 @@
     display: flex;
 }
 
-ul {
-    margin: 0;
+.text {
+    align-items: center;
 }
 
 li {
@@ -14,21 +14,27 @@ li {
 
 nav {
     background-color: #2c3e50;
+    height: 3em;
+    align-items: center;
 }
 
-.text {
+.start {
     color: white;
     font-weight: 600;
     font-size: 1.5em;
-    padding: 0.5em;
-}
-
-.yellow {
-    background-color: yellow;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu {
-    text-align: right;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2em;
+    justify-content: flex-end;
+}
+
+.menu ul {
+    margin-bottom: 0;
 }
 
 .hamburger .fa-bars {
@@ -36,20 +42,35 @@ nav {
 } 
 
 .jambotron {
-    background-color: #1abc9c;
-    height: 400px;
-    justify-content: center;
-    align-items: center;
+    background-color: #1abc9c;}
+
+.avatar {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+  }
+  
+.avatar img {
+      width: 100%;
+      height: 100%;
+}
+
+.line {
+    display: inline-block;
+    width: 30px;
+    height: 2px;
+    background-color: black;
 }
 
 .white {
     background-color: white;
 }
 
-.red {
+.sub-title {
     background-color: tomato;
-    height: 60px;
+    text-align: center;
 }
+
 
 .img-green {
     background-color: springgreen;
