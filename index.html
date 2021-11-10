@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
@@ -40,7 +43,7 @@
                     <img src="img/avatar.svg" alt="">
                   </div>
                   <h2>start bootstarp</h2>
-                  <div class="star">
+                  <div class="star flex">
                     <div class="line line-left"></div>
                     <i class="fas fa-star"></i>
                     <div class="line line-rigt"></div>
@@ -53,22 +56,22 @@
     <!-- /jambotron -->
 
     <!-- portfolio -->
-    <div class="portfolio white">
-        <div class="container">
+    <div class="portfolio">
+        <div class="container ps-10 pe-10">
             <div class="row justify-content-center">
                 <div class="col-md-4 sub-title">
                     <h2>PORTFOLIO</h2>
-                    <div class="star">
-                        <div class="line line-left"></div>
+                    <div class="star flex">
+                        <div class="line black line-left"></div>
                         <i class="fas fa-star"></i>
-                        <div class="line line-rigt"></div>
+                        <div class="line black line-rigt"></div>
                     </div>
                 </div>
             </div>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-1">
                 <div class="col p-4">
                   <div class="img-green">
-                      <img src="img/safe.png" alt="">
+                      <img src="img/cabin.png" alt="">
                   </div>
                 </div>
                 <div class="col p-4">
@@ -87,10 +90,14 @@
                     </div>
                 </div>
                 <div class="col p-4">
-                    <div class="img-green"></div>
+                    <div class="img-green">
+                        <img src="img/safe.png" alt="">
+                    </div>
                 </div>
                 <div class="col p-4">
-                    <div class="img-green"></div>
+                    <div class="img-green">
+                        <img src="img/submarine.png" alt="">
+                    </div>
                 </div>
               </div>
         </div>
@@ -99,28 +106,39 @@
 
     <!-- about -->
     <div class="about">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-4 sub-title">
                     <h2>ABOUT</h2>
-                    <i class="fas fa-star"></i>
+                    <div class="star flex">
+                        <div class="line line-left"></div>
+                        <i class="fas fa-star"></i>
+                        <div class="line line-rigt"></div>
+                    </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4 offset-md-2">
-                  <div class="about-left"></div>
+                  <div class="about-left">
+                    <span>Freelancer is a free bootstrap theme created by Start Boostrap. The download includes the complete source files including HTML, CSS and JavaScipt as well as optional LESS stylesheets for easy customization.</span>
+                  </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="about-right"></div>
-                  </div>
-              </div>
+                    <div class="about-right">
+                        <span>Wheter you're a student looking to showcase your work, profesional looking to acttract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <button type="button" class="btn btn-outline-primary">Primary</button>
+            </div>
         </div>
     </div>
     <!-- /about -->
 
     <!-- contact -->
     <div class="contact">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-4 sub-title">
                     <h2>CONTACT ME</h2>
