@@ -106,7 +106,7 @@
 
     <!-- about -->
     <div class="about">
-        <div class="container">
+        <div class="container pb-6 pt-6">
             <div class="row justify-content-center">
                 <div class="col-md-4 sub-title">
                     <h2>ABOUT</h2>
@@ -119,18 +119,20 @@
             </div>
             <div class="row">
                 <div class="col-md-4 offset-md-2">
-                  <div class="about-left">
+                  <div>
                     <span>Freelancer is a free bootstrap theme created by Start Boostrap. The download includes the complete source files including HTML, CSS and JavaScipt as well as optional LESS stylesheets for easy customization.</span>
                   </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="about-right">
+                    <div>
                         <span>Wheter you're a student looking to showcase your work, profesional looking to acttract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</span>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <button type="button" class="btn btn-outline-primary">Primary</button>
+            <div class="row text-center">
+                <div class="col-12 pt-3">
+                    <button type="button" class="btn btn-outline-primary"><i class="fas fa-download"></i> Download</button>
+                </div>
             </div>
         </div>
     </div>
@@ -142,12 +144,35 @@
             <div class="row justify-content-center">
                 <div class="col-md-4 sub-title">
                     <h2>CONTACT ME</h2>
-                    <i class="fas fa-star"></i>
+                    <div class="star flex">
+                        <div class="line black line-left"></div>
+                        <i class="fas fa-star"></i>
+                        <div class="line black line-rigt"></div>
+                    </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-8 offset-md-2">
-                    <div class="about-left"></div>
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Name</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email Addres</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Phone Number</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Message</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          </div>
+                        <button type="submit" class="btn btn-primary send">Send</button>
+                    </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -155,26 +180,44 @@
     <!-- /contact -->
 
     <!-- footer -->
-    <div class="footer">
-        <div class="container-fluid">
+    <div class="footer-top">
+        <div class="container pt-6 pb-6 mt-5">
             <div class="row">
-                <div class="col-md-3 offset-md-2">
-                    <div class="about-left"></div>
+                <div class="col-12 col-md-4">
+                    <div class="text-center">
+                        <h4>location</h4>
+                        <span>2215 John Daniel Drive Carl, MO 54243</span>
+                    </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="about-left"></div>
+                <div class="col-12 col-md-4">
+                    <div class="text-center">
+                        <h4>Around the web</h4>
+                        <i class="fab fa-facebook-f font"></i>
+                        <i class="fab fa-google-plus-g font"></i>
+                        <i class="fab fa-twitter font"></i>
+                        <i class="fab fa-linkedin-in font"></i>
+                    </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="about-left"></div>
+                <div class="col-12 col-md-4">
+                    <div class="text-center">
+                        <h4>about freelancer</h4>
+                        <span>freelance is a free to use, open source bootstrap theme created by start boostrap.</span>
+                    </div>
                 </div>
             </div>
         </div>
     </div> 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12 sub-title"></div>
-        </div>
-    </div>   
+    <div class="footer-bottom">
+        <div class="container pt-3 pb-3">
+            <div class="row">
+                <div class="col-12 sub-title">
+                    <div class="text-center">
+                        <span>Copyright &#169; Your Website 2019</span>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </div>
     <!-- /footer -->    
 </body>
 </html>
