@@ -155,7 +155,6 @@ nav {
 }
 
 .img-green {
-    height: 180px;
     position: relative;
     background-color: #1abc9c00;
     transition: 1s;
@@ -163,7 +162,6 @@ nav {
 
 .img-green img {
     border-radius: 10px;
-    height: 100%;
     width: 100%;
     transition: 1s;
 }
@@ -264,10 +262,9 @@ h4 {
     border-right: none;
 }
 
-.mb-3:hover .form-label {
+.form-control:focus .from-label{
     font-size: 0.8em;
 }
-
 
 
 /* footer */
